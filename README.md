@@ -20,6 +20,12 @@ Windows 10 or 11, 64-bit. Rendering requires an activated licence.
 
 ## Release notes
 
+### 2.0.3
+- Stronger licence protection on your computer.
+- Your licence now survives renaming your PC or changing its network adapter.
+- A brief activation-server outage, or a hotel or airport Wi-Fi login page, no longer interrupts a valid licence. The app simply keeps working offline.
+- Upgrading from 2.0.2: the first launch makes one quick online licence check, then everything works as before, including offline use.
+
 ### 2.0.2
 - Fixed: on displays scaled above 100 % (common on laptops), the window opened taller than
   the screen and hid the Render button behind the taskbar. It now always fits the usable screen,
