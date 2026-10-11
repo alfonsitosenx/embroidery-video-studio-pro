@@ -20,6 +20,15 @@ Windows 10 or 11, 64-bit. Rendering requires an activated licence.
 
 ## Release notes
 
+### 2.0.2
+- Fixed: on displays scaled above 100 % (common on laptops), the window opened taller than
+  the screen and hid the Render button behind the taskbar. It now always fits the usable screen,
+  and starts maximised on small screens.
+- Fixed: the compact layout now switches at the intended window width on scaled displays.
+- Fixed: clearing the queue or removing the previewed design now resets the preview, and a
+  preview still loading for a removed design can no longer appear.
+- System Information now reports the build type correctly for support requests.
+
 ### 2.0.1
 - Fixed: an activated licence now needs an online check after 17 days without one
   (3-day check interval plus 14 days of offline grace); previously the offline grace never ended.
