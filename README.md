@@ -20,6 +20,17 @@ Windows 10 or 11, 64-bit. Rendering requires an activated licence.
 
 ## Release notes
 
+### 2.0.1
+- Fixed: an activated licence now needs an online check after 17 days without one
+  (3-day check interval plus 14 days of offline grace); previously the offline grace never ended.
+- Fixed: a computer clock set backwards no longer extends the offline grace.
+- Fixed: a failed activation now shows its message instead of leaving the licence
+  window stuck on "Working…".
+- Clearer activation messages, including when a licence is already active on another computer.
+- Fixed: the same design could be queued twice when selected twice in one go.
+- Fixed: damaged or unreadable design files now show a plain-English message.
+- Fixed: invalid saved defaults are ignored individually instead of leaking into settings.
+
 ### 2.0.0
 - First public release.
 - Batch stitch-out rendering to MP4 (H.264) and looping GIF.
